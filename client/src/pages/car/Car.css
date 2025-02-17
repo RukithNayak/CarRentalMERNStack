@@ -1,0 +1,99 @@
+.carContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #008009;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carTitle {
+    font-size: 24px;
+}
+
+.carModel {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carImgWrapper {
+    width: 33%;
+}
+
+.carImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.carDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.carDetailsTexts {
+    flex: 3;
+}
+
+.carDetailsPrice {
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carDetailsPrice>h1 {
+    font-size: 20px;
+    color: #555;
+}
+
+.carDetailsPrice>h2 {
+    font-weight: 300;
+}
+
+.carDetailsPrice>button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #008009;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carDesc {
+    font-size: 16px;
+    margin-top: 20px;
+}

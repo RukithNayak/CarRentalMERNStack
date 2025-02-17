@@ -1,0 +1,106 @@
+.reserve {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto; /* Allows scrolling for the entire modal */
+}
+
+.rContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  position: relative;
+  max-height: 90vh; /* Ensures the container is not taller than the viewport */
+  overflow-y: auto; /* Adds scroll for the container if necessary */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.rClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rItem {
+  margin: 15px 0;
+}
+
+.rButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rButton:hover {
+  background-color: #0056b3;
+}
+
+.bookingConfirmation {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+.feedbackSection {
+  text-align: left;
+  padding: 20px;
+}
+
+.feedbackSection h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.feedbackSection label {
+  font-weight: 500;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.feedbackSection input,
+.feedbackSection textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.feedbackSection button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedbackSection button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+.feedbackSection button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+  margin-left: 10px;
+}

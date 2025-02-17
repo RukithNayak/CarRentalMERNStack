@@ -1,0 +1,13 @@
+.homeContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+}
+
+.bg {
+    background-color: black;
+    padding-bottom: 50px;
+}

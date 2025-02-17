@@ -1,0 +1,39 @@
+/* Register Page Styles */
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .rInput {
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #9D00FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rButton:hover {
+    background-color: #c464ff;
+  }
+  
+  .rButton:disabled {
+    background-color: #c464ff;
+    cursor: not-allowed;
+  }
+  

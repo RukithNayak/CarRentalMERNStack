@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // Allow JavaScript files in the project
+    "checkJs": false, // Disable type-checking for JS files
+    "jsx": "react-jsx", // or "react" depending on your setup
+    "esModuleInterop": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
